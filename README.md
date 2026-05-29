@@ -80,7 +80,7 @@ Para probar el panel administrativo y la simulación de compras, puedes usar los
 
 ---
 
-## 🗄️ Diagrama de Base de Datos
+## 🗄️ Diagrama de la Base de Datos
 
 ![Diagrama ER](database/Diagrama%20ER%20Base%20de%20Datos%20florencia_db.png)
 
