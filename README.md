@@ -35,8 +35,8 @@ Florencia es un sistema web de catálogo y gestión comercial diseñado para tie
 ### 2. Configurar el Backend PHP
 
 1. Copia o mueve la carpeta `/backend/` al directorio de documentos de tu servidor web:
-   - **XAMPP**: `C:\xampp\htdocs\mujer-bonita\backend`
-   - **Laragon**: `C:\laragon\www\mujer-bonita\backend`
+   - **XAMPP**: `C:\xampp\htdocs\florencia-store\backend`
+   - **Laragon**: `C:\laragon\www\florencia-store\backend`
 2. Verifica que el archivo `backend/.env` tenga las credenciales correctas de tu base de datos local:
    ```ini
    DB_HOST=localhost
@@ -50,7 +50,7 @@ Florencia es un sistema web de catálogo y gestión comercial diseñado para tie
 
 ### 3. Configurar el Frontend Next.js
 
-1. Abre una terminal en la raíz del proyecto (`/mujer-bonita/`).
+1. Abre una terminal en la raíz del proyecto (`/florencia-store/`).
 2. Instala las dependencias necesarias:
    ```bash
    pnpm install
@@ -58,7 +58,7 @@ Florencia es un sistema web de catálogo y gestión comercial diseñado para tie
    ```
 3. Configura las variables de entorno creando un archivo `.env.local` en la raíz del proyecto (ya creado por defecto):
    ```ini
-   NEXT_PUBLIC_API_URL=http://localhost/mujer-bonita/backend
+   NEXT_PUBLIC_API_URL=http://localhost/florencia-store/backend
    ```
 4. Inicia el servidor de desarrollo del frontend:
    ```bash
