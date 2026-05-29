@@ -1,0 +1,7 @@
+# Evitar que se listen los directorios
+Options -Indexes
+
+# Configuración básica de cabeceras
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Credentials "true"
+</IfModule>
